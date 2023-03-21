@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: rgb(250, 230, 217);
+    
+
+    
+}
+/* body{
+    background:url(ani.jpg);
+    height:100vh;
+    width:100vw;
+    display:flex;
+    background-position: center;
+    background-size: cover;
+} */
+table{
+    border:2px solid black;
+    border-collapse: collapse;
+    width:65%;
+    text-align: center;
+    margin:auto;
+    margin-top:70px;
+    box-shadow: 7px 7px 7px 7px gray; 
+    box-shadow: 0 0 7px 7px gray;
+    
+    
+
+
+}
+caption{
+    color:rgb(104, 62, 3);
+    font-family:monospace;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+}
+table,tr,th{
+    border:2px solid rgb(61, 60, 60);
+    background-color: rgba(215, 166, 166, 0.5);
+    
+
+}
+table,td{
+    border:2px solid rgb(77, 76, 76);
+    padding:18px 20px;
+    background-color: rgb(104, 105, 104);
+    color:#fff;
+}
+#L{
+    /* display: inline-block; */
+    letter-spacing:15px;
+    text-orientation: upright;
+    writing-mode: vertical-lr;
+    width:200px;
+    font-size: 2em;
+    font-weight: 700;
+    /* background-color:; */
+    
+    
+}
+.day{
+    font-family: 'Times New Roman';
+    font: weight 600px;
+    font-size:1.4em;
+}
+.lab{
+    font-size: 1em;
+    font-family:sans-serif;
+    background-color: rgb(75, 140, 80);
+}
+.lec{
+    font-size: 1.4em;
+    font-weight: 700;
+    color:#c15904;
+}
+.sub{
+    font-family:monospace;
+    font-size: 1.2em;
+}
